@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#logo{
+    font-size: 30px;
+    color: #555;
+    cursor: default;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.logo2{
+     color: #7d2ae8;
+}
+.home{
+    align-items: center;
+    margin-top: 180px;
+}
+.home h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #555;
+    width: 11ch;
+    animation: typing 3s steps(18),
+    blink 0.5s step-end infinite alternate !important;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+.home h2 span {
+    color: #7d2ae8;
+    
+}
+.home h4 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #555;
+    width: 16ch;
+    animation: typing 2s steps(15),
+    blink 0.5s step-end infinite alternate !important;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.home p{
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 0 40px 0;
+}
+.social-mediaa{
+    display: flex;
+    gap: 16px;
+}
+.social-mediaa a{
+    padding: 10px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #7d2ae8;
+    transition: all 0.5s ease;
+}
+.social-mediaa a:hover{
+   background: transparent;
+    color: #7d2ae8;
+}
+.btn-CV a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 600;
+    font-size: 18px;
+    transition: .3s;
+    
+}
+.btn-CV a:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+.img-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.img-content img {
+    border-radius: 50px;
+    animation: floatImage 6s ease-in-out infinite;
+}
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.heading1 h1{
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: #555;
+}
+span{
+    color: #7d2ae8;
+}
+.project-content img{
+    cursor: pointer;
+    transition: all 0.7s ease;
+    /* border: 2px solid red; */
+}
+.project-content img:hover{
+    transform: scale(0.9);
+}
+.heading2 h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #555;
+}
+#form-content{
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn-contact{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-contact a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border-radius: 12px;
+    border: 2px solid #7d2ae8;
+    font-weight: 600;
+    font-size: 18px;
+    transition: .3s;
+}
+.btn-contact a:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer-content h1{
+    font-weight: 600;
+   font-size: 65px;
+   font-family: 'Poppins', sans-serif;
+   color: #555;
+}
+.footer-content p{
+ font-size: 22px;
+ font-weight: 500;
+ font-family: 'Poppins', sans-serif;
+ color: #3c3b3b;
+}
+.footer-content a{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 38px;
+    background: #7d2ae8;
+    border-radius: 12px;
+    border: 2px solid #7d2ae8;
+    font-weight: 600;
+    font-size: 19px; 
+}
+.social-mediaa2{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.social-mediaa2 a{
+    padding: 5px;
+    /* border-radius: 25px; */
+    color: #7d2ae8;
+    /* background-color: #7d2ae8; */
+}
+.footer-end-heading{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 8px;
+    font-size: 24px;
+    color: #7d2ae8;
+    font-weight: 600;  
+
+    cursor: pointer; 
+}
