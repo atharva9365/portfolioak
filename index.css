@@ -26,8 +26,8 @@
     font-size: 45px;
     font-weight: 700;
     color: #555;
-    width: 11ch;
-    animation: typing 3s steps(18),
+    width: 40ch;
+    animation: typing 3s steps(50),
     blink 0.5s step-end infinite alternate !important;
     white-space: nowrap;
     overflow: hidden;
@@ -50,8 +50,8 @@
     font-size: 35px;
     font-weight: 700;
     color: #555;
-    width: 16ch;
-    animation: typing 2s steps(15),
+    width: 18ch;
+    animation: typing 2s steps(18),
     blink 0.5s step-end infinite alternate !important;
     white-space: nowrap;
     overflow: hidden;
@@ -125,12 +125,11 @@ span{
 }
 .project-content img{
     cursor: pointer;
+    width: 100%;
     transition: all 0.7s ease;
     /* border: 2px solid red; */
 }
-.project-content img:hover{
-    transform: scale(0.9);
-}
+
 .heading2 h1{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -209,6 +208,25 @@ span{
     font-size: 24px;
     color: #7d2ae8;
     font-weight: 600;  
-
     cursor: pointer; 
 }
+.btn-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-project button{
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 40px;
+        background: #7d2ae8;
+        border-radius: 12px;
+        border: 2px solid #7d2ae8;
+        font-weight: 600;
+        font-size: 18px;
+        transition: .3s;
+}
+.btn-project >button:hover{
+    color: #7d2ae8;
+    background: transparent;
+} 
